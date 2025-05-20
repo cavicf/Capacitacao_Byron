@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tagesschrift&display=swap');
+
+:root{
+    font-size: 16px;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+header{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+header nav ul{
+    display: flex;
+    gap: 1rem;
+}
+
+header nav{
+    background-color: lightpink;
+}
+
+header ul, aside ul{
+    list-style: none;   
+    margin: 0;
+    padding: 0;
+}
+
+.main-page{
+    display: flex;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightsalmon;
+    width: 20%;
+}
+
+aside ul{
+    text-align: center;
+    background-color: lightpink;
+}
+
+main{
+    background-color: lightblue;
+    padding: 0.5rem 1rem;
+}
+
+main article{
+    background-color: lightcyan;
+    text-align: justify;
+}
+
+footer{
+    background-color: lightgrey;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
