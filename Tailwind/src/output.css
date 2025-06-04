@@ -53,6 +53,8 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --color-principal: #5aacb0;
+    --font-comic: "Edu QLD Hand", cursive;
   }
 }
 @layer base {
@@ -273,6 +275,9 @@
   .w-48 {
     width: calc(var(--spacing) * 48);
   }
+  .w-\[33px\] {
+    width: 33px;
+  }
   .w-auto {
     width: auto;
   }
@@ -361,6 +366,9 @@
   .border-amber-700 {
     border-color: var(--color-amber-700);
   }
+  .bg-\[\#736b99\] {
+    background-color: #736b99;
+  }
   .bg-amber-300 {
     background-color: var(--color-amber-300);
   }
@@ -403,6 +411,9 @@
   .bg-pink-200 {
     background-color: var(--color-pink-200);
   }
+  .bg-principal {
+    background-color: var(--color-principal);
+  }
   .bg-purple-400 {
     background-color: var(--color-purple-400);
   }
@@ -435,6 +446,9 @@
   }
   .pb-12 {
     padding-bottom: calc(var(--spacing) * 12);
+  }
+  .font-comic {
+    font-family: var(--font-comic);
   }
   .font-mono {
     font-family: var(--font-mono);
@@ -602,6 +616,7 @@
     }
   }
 }
+@import url(https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap);
 @property --tw-border-style {
   syntax: "*";
   inherits: false;

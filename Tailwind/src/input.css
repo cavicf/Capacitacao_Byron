@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@import url(https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap);
+
+@theme{
+    --color-principal: #5aacb0;
+    --font-comic: "Edu QLD Hand", cursive;
+}
