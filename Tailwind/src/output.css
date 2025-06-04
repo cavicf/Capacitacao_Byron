@@ -24,7 +24,10 @@
     --color-cyan-700: oklch(52% 0.105 223.128);
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-purple-400: oklch(71.4% 0.203 305.504);
+    --color-pink-100: oklch(94.8% 0.028 342.258);
     --color-pink-200: oklch(89.9% 0.061 343.231);
+    --color-pink-300: oklch(82.3% 0.12 346.018);
+    --color-pink-400: oklch(71.8% 0.202 349.761);
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-black: #000;
     --color-white: #fff;
@@ -376,6 +379,9 @@
   .bg-amber-800 {
     background-color: var(--color-amber-800);
   }
+  .bg-black {
+    background-color: var(--color-black);
+  }
   .bg-blue-500 {
     background-color: var(--color-blue-500);
   }
@@ -390,6 +396,9 @@
   }
   .bg-green-200 {
     background-color: var(--color-green-200);
+  }
+  .bg-pink-100 {
+    background-color: var(--color-pink-100);
   }
   .bg-pink-200 {
     background-color: var(--color-pink-200);
@@ -570,6 +579,26 @@
   .focus\:bg-teal-600 {
     &:focus {
       background-color: var(--color-teal-600);
+    }
+  }
+  .sm\:bg-pink-200 {
+    @media (width >= 40rem) {
+      background-color: var(--color-pink-200);
+    }
+  }
+  .md\:bg-pink-300 {
+    @media (width >= 48rem) {
+      background-color: var(--color-pink-300);
+    }
+  }
+  .lg\:flex-row {
+    @media (width >= 64rem) {
+      flex-direction: row;
+    }
+  }
+  .lg\:bg-pink-400 {
+    @media (width >= 64rem) {
+      background-color: var(--color-pink-400);
     }
   }
 }
