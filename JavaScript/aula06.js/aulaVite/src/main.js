@@ -16,6 +16,6 @@ let user = {
 }
 
 
-document.body.innerText = JSON.stringify(user);
+document.body.innerText = JSON.stringify(user, );
 document.body.innerText = (user.nome);
 document.body.innerText = (user.irmaos[0].nome);
